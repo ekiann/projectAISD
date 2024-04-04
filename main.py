@@ -1,24 +1,23 @@
 import kivy
-kivy.require('2.0.0')
 from kivy.app import App
-from kivy.uix.label import Label
+from kivy.uix.button import Button
 from kivy.core.window import Window
 from kivy.lang import Builder
-from kivy.uix.screenmanager import Screen
-
-
-class Start(Screen):
-    pass
+from kivy.uix.widget import Widget
 
 lblKVLang = Builder.load_file("main.kv")
 
-class KVLangTestApp(App):
 
+class NewClass(Widget):
+    pass
+
+
+class MyApp(App):
     def build(self):
-        # Window.clearcolor = (2/255,	49/255,	93/255, 1)
-        # Window.size = (360, 800)
-        return Start()
+        Window.clearcolor = (2/255, 49/255, 93/255, 1)
+        Window.size = (360, 600)
+        return NewClass()
 
 
-if __name__ == '__main__':
-    KVLangTestApp().run()
+if __name__ == "__main__":
+    MyApp().run()

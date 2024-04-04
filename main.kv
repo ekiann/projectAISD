@@ -1,13 +1,8 @@
-Start:
-    BoxLayout:
-        orientation: "vertical"
-        canvas.before:
-            Color:
-                rgba: 1, 1, 0, 1
-            Rectangle:
-                size: self.size
-                pos: self.pos
-        Label:
-            text: "Login"
-            color: "#D1D1D1"
-            font_size: "32"
+<NewClass>
+    Button:
+        width: '200'
+        height: '40'
+        background_normal: "button_1.png"
+        background_down: "down_button.png"
+        pos: {120, 200}
+        size_hint: (.3, .3)
