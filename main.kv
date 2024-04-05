@@ -1,8 +1,21 @@
 <NewClass>
+    Widget:
+        canvas:
+            RoundedRectangle:
+                source: 'RoundedRectangle.png'
+                size: self.size
+                radius: [20,]
+                pos: self.pos
     Button:
         width: '200'
         height: '40'
         background_normal: "button_1.png"
         background_down: "down_button.png"
         pos: {120, 200}
-        size_hint: (.3, .3)
+    Label:
+        font_size: '32'
+        font: 'Inter'
+        color: '#D1D1D1'
+        text: "Login"
+        pos: {170, 500}
+
