@@ -98,7 +98,7 @@ canvas.create_rectangle(
 
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
-button_image_2 = PhotoImage(file=relative_to_assets("Active_button.png"))
+button_image_2 = PhotoImage(file=relative_to_assets("down_button.png"))
 
 button = Button(
     image=button_image_1,
