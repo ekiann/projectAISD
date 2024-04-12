@@ -1,8 +1,14 @@
 from pathlib import Path
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, font
+from time import sleep
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\annae\OneDrive\Desktop\Dagaev\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\annae\OneDrive\Desktop\projectAISD\build\assets\frame0")
+
+def button_clicked(image2, image1):
+    button.config(image=image2)
+    sleep(0.1)
+    button.config(image=image1)
 
 
 def round_rectangle(x1, y1, x2, y2, radius=25, **kwargs):
@@ -92,15 +98,18 @@ canvas.create_rectangle(
 
 button_image_1 = PhotoImage(
     file=relative_to_assets("button_1.png"))
+button_image_2 = PhotoImage(file=relative_to_assets("Active_button.png"))
+
 button = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#806592",
-    command=lambda: print(1),
+    background="#806592",
+    command=lambda: button_clicked(button_image_2, button_image_1),
     relief="flat"
 )
-button["bg"] = "#806592"
+
 
 button.place(
     x=81.0,
