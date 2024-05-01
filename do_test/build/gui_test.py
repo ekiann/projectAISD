@@ -62,12 +62,14 @@ button_1.place(
 
 button_image_2 = PhotoImage(
     file=relative_to_assets("button_2.png"))
+button_image_2_red = PhotoImage(
+    file=relative_to_assets("button_2_clicked.png"))
 button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_2 clicked"),
+    command=lambda: [print("button_2 clicked"), button_2.config(image=button_image_2_red)],
     relief="flat"
 )
 button_2.place(
@@ -79,12 +81,15 @@ button_2.place(
 
 button_image_3 = PhotoImage(
     file=relative_to_assets("button_3.png"))
+button_image_3_red = PhotoImage(
+    file=relative_to_assets("button_3_clicked.png"))
 button_3 = Button(
     image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_3 clicked"),
+    # command = lambda: print("button_3 clicked"),
+    command=lambda: [print("button_3 clicked"), button_3.config(image=button_image_3_red)],
     relief="flat"
 )
 button_3.place(
@@ -96,12 +101,15 @@ button_3.place(
 
 button_image_4 = PhotoImage(
     file=relative_to_assets("button_4.png"))
+button_image_4_red = PhotoImage(
+    file=relative_to_assets("button_4_clicked.png"))
 button_4 = Button(
     image=button_image_4,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_4 clicked"),
+    # command=lambda: print("button_4 clicked"),
+    command=lambda: [print("button_4 clicked"), button_4.config(image=button_image_4_red)],
     relief="flat"
 )
 button_4.place(
@@ -113,12 +121,15 @@ button_4.place(
 
 button_image_5 = PhotoImage(
     file=relative_to_assets("button_5.png"))
+button_image_5_red = PhotoImage(
+    file=relative_to_assets("button_5_clicked.png"))
 button_5 = Button(
     image=button_image_5,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_5 clicked"),
+    # command=lambda: print("button_5 clicked"),
+    command=lambda: [print("button_5 clicked"), button_5.config(image=button_image_5_red)],
     relief="flat"
 )
 button_5.place(
@@ -130,12 +141,15 @@ button_5.place(
 
 button_image_6 = PhotoImage(
     file=relative_to_assets("button_6.png"))
+button_image_6_red = PhotoImage(
+    file=relative_to_assets("button_6_clicked.png"))
 button_6 = Button(
     image=button_image_6,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_6 clicked"),
+    # command=lambda: print("button_6 clicked"),
+    command=lambda: [print("button_6 clicked"), button_6.config(image=button_image_6_red)],
     relief="flat"
 )
 button_6.place(
@@ -147,12 +161,15 @@ button_6.place(
 
 button_image_7 = PhotoImage(
     file=relative_to_assets("button_7.png"))
+button_image_7_red = PhotoImage(
+    file=relative_to_assets("button_7_clicked.png"))
 button_7 = Button(
     image=button_image_7,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_7 clicked"),
+    # command=lambda: print("button_7 clicked"),
+    command=lambda: [print("button_7 clicked"), button_7.config(image=button_image_7_red)],
     relief="flat"
 )
 button_7.place(
@@ -164,12 +181,15 @@ button_7.place(
 
 button_image_8 = PhotoImage(
     file=relative_to_assets("button_8.png"))
+button_image_8_red = PhotoImage(
+    file=relative_to_assets("button_8_clicked.png"))
 button_8 = Button(
     image=button_image_8,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_8 clicked"),
+    # command=lambda: print("button_8 clicked"),
+    command=lambda: [print("button_8 clicked"), button_8.config(image=button_image_8_red)],
     relief="flat"
 )
 button_8.place(
@@ -181,12 +201,15 @@ button_8.place(
 
 button_image_9 = PhotoImage(
     file=relative_to_assets("button_9.png"))
+button_image_9_red = PhotoImage(
+    file=relative_to_assets("button_9_clicked.png"))
 button_9 = Button(
     image=button_image_9,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_9 clicked"),
+    # command=lambda: print("button_9 clicked"),
+    command=lambda: [print("button_9 clicked"), button_9.config(image=button_image_9_red)],
     relief="flat"
 )
 button_9.place(
@@ -198,12 +221,15 @@ button_9.place(
 
 button_image_10 = PhotoImage(
     file=relative_to_assets("button_10.png"))
+button_image_10_red = PhotoImage(
+    file=relative_to_assets("button_10_clicked.png"))
 button_10 = Button(
     image=button_image_10,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_10 clicked"),
+    # command=lambda: print("button_10 clicked"),
+    command=lambda: [print("button_10 clicked"), button_10.config(image=button_image_10_red)],
     relief="flat"
 )
 button_10.place(
@@ -215,12 +241,15 @@ button_10.place(
 
 button_image_11 = PhotoImage(
     file=relative_to_assets("button_11.png"))
+button_image_11_red = PhotoImage(
+    file=relative_to_assets("button_11_clicked.png"))
 button_11 = Button(
     image=button_image_11,
     borderwidth=0,
     highlightthickness=0,
     activebackground="#02315D",
-    command=lambda: print("button_11 clicked"),
+    # command=lambda: print("button_11 clicked"),
+    command=lambda: [print("button_11 clicked"), button_11.config(image=button_image_11_red)],
     relief="flat"
 )
 button_11.place(
@@ -281,5 +310,6 @@ canvas.create_text(
     font=("Inter", 32 * -1),
     width=960
 )
-window.resizable(False, False)
+
+window.resizable(True, True)
 window.mainloop()
