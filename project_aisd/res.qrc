@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/test_img">
+        <file>checked.png</file>
+        <file>unchecked.png</file>
+        <file>user.png</file>
+    </qresource>
+    <qresource prefix="/authorization_img">
+        <file>error.png</file>
+        <file>information.png</file>
+    </qresource>
+    <qresource prefix="/completed_test_img">
+        <file>arrow.png</file>
+        <file>double_arrow.png</file>
+        <file>down_arrow.png</file>
+        <file>menu.png</file>
+        <file>user.png</file>
+    </qresource>
+    <qresource prefix="/new_test_img">
+        <file>arrow.png</file>
+        <file>double_arrow.png</file>
+        <file>down_arrow.png</file>
+        <file>menu.png</file>
+        <file>user.png</file>
+    </qresource>
+    <qresource prefix="/lk_img">
+        <file>arrow.png</file>
+        <file>double_arrow.png</file>
+        <file>down_arrow.png</file>
+        <file>menu.png</file>
+        <file>user.png</file>
+        <file>user_2.png</file>
+    </qresource>
+</RCC>
